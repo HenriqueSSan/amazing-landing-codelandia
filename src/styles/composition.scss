@@ -1,0 +1,33 @@
+.flow-space *+* {
+  margin-top: var(--space, 1rem);
+}
+.flow-space-child :not(:first-child) *{
+  margin-top: var(--space, 1rem);
+}
+
+.flex-flow {
+  display: flex;
+  align-items: center;
+  gap: var(--flex-flow-gap, 1rem);
+}
+
+.grid-col-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: var(--col-gap, 1rem);
+  row-gap: var(--row-gap, 1rem);
+
+}
+@media screen and (max-width:1024px) {
+  .grid-col-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width:769px) {
+  .grid-col-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

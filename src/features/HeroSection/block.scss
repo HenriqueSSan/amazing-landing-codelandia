@@ -1,0 +1,31 @@
+.hero {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 77px 0 123px 0;
+  --flex-flow-gap: 4rem;
+
+  .container {
+    height: 100%;
+  }
+}
+
+.hero__data {
+  h1 {
+    margin-bottom: 1.15rem;
+  }
+
+  p {
+    width: 80%;
+    margin-bottom: 45px;
+  }
+}
+
+
+.hero__links {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

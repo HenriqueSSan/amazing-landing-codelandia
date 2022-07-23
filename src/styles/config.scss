@@ -1,0 +1,21 @@
+:root {
+  --bg-light-blue: #D7D5FF;
+  --bg-clr-blue: #6C63FF;
+  --bg-clr-white: #fff;
+  --clr-white: #fff;
+}
+
+
+body,
+input,
+button {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+textarea {
+  resize: unset;
+}
